@@ -62,4 +62,4 @@ if __name__ == "__main__":
             dic[stock] = price
             print("Quoted %s at (bid:%s, ask:%s, price:%s)" % (stock, bid_price, ask_price, price))
 
-        print("Ratio %s" % getRatio(dic["ABC"], dic["EFG"]))
+        print("Ratio %s" % getRatio(dic["ABC"], dic["DEF"]))
